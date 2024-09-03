@@ -54,8 +54,7 @@ const gamePromoConfigs = {
         eventsDelay: 21000,
         attemptsNumber: 23
     }
-};
-
+}
 let currentAppConfig = gamePromoConfigs.MyCloneArmy;
 var currentLanguage;
 var keygenActive = false;
