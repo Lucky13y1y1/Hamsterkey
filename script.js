@@ -54,8 +54,9 @@ const gamePromoConfigs = {
         eventsDelay: 21000,
         attemptsNumber: 23
     }
-}
-let currentAppConfig = gamePromoConfigs.MyCloneArmy;
+};
+
+let currentAppConfig = Object.values(gamePromoConfigs)[0];
 var currentLanguage;
 var keygenActive = false;
 
@@ -370,4 +371,4 @@ function sleep(ms) {
 
 function delayRandom() {
     return Math.random() / 3 + 1;
-}
+                    }
