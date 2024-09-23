@@ -57,14 +57,50 @@ const gamePromoConfigs = {
     StoneAge: {
         appToken: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
         promoId: '04ebd6de-69b7-43d1-9c4b-04a6ca3305af',
-        attemptsNumber: 20,
-        eventsDelay: 20000
+        eventsDelay: 20000,
+        attemptsNumber: 20
     },
-    BounceMasters: {
+    Bouncemasters: {
         appToken: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
         promoId: 'bc72d3b9-8e91-4884-9c33-f72482f0db37',
         eventsDelay: 20000,
         attemptsNumber: 30
+    },
+    HideBall: {
+        appToken: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600",
+        promoId: "4bf4966c-4d22-439b-8ff2-dc5ebca1a600",
+        eventsDelay: 30000,
+        attemptsNumber: 20
+    },
+    CountMasters: {
+        appToken: "4bdc17da-2601-449b-948e-f8c7bd376553",
+        promoId: "4bdc17da-2601-449b-948e-f8c7bd376553",
+        eventsDelay: 20000,
+        attemptsNumber: 30
+    },
+    PinOutMaster: {
+        appToken: 'd2378baf-d617-417a-9d99-d685824335f0', 
+        promoId: 'd2378baf-d617-417a-9d99-d685824335f0', 
+        attemptsNumber: 30,
+        eventsDelay: 20000
+    },
+    AmongWater: {
+        appToken: 'daab8f83-8ea2-4ad0-8dd5-d33363129640',
+        promoId: 'daab8f83-8ea2-4ad0-8dd5-d33363129640',
+        attemptsNumber: 20,
+        eventsDelay: 20000
+    },
+    InfectedFrontier: {
+         appToken: 'eb518c4b-e448-4065-9d33-06f3039f0fcb',
+         promoId: 'eb518c4b-e448-4065-9d33-06f3039f0fcb',
+        attemptsNumber: 20,
+        eventsDelay: 20000
+    },
+    FactoryWorld: {
+        appToken: 'd02fc404-8985-4305-87d8-32bd4e66bb16',
+        promoId: 'd02fc404-8985-4305-87d8-32bd4e66bb16',
+        attemptsNumber: 20,
+        eventsDelay: 30000
     }
 };
 
@@ -383,4 +419,4 @@ function sleep(ms) {
 
 function delayRandom() {
     return Math.random() / 3 + 1;
-                }
+            }
